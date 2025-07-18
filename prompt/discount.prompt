@@ -11,7 +11,7 @@
 ## Tech Stack
 1. Language Env：Node.js
 2. BDD Test framework: Cucumber
-3. Native test framework: NuxtJS
+3. Native test framework: Jest
 
 ## Application Environment
 1. App 類型：純模組程式碼
