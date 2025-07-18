@@ -1,4 +1,4 @@
-import { OrderService } from './order.service';
+import { OrderService } from '../src/order/order.service';
 
 describe('OrderService', () => {
   it('should return totalAmount 500 and correct items for single T-shirt without promotions', () => {

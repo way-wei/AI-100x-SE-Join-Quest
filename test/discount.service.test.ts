@@ -1,4 +1,4 @@
-import { DiscountService } from './discount.service';
+import { DiscountService } from '../src/discount/discount.service';
 
 describe('DiscountService', () => {
   it('should apply 20% discount for every 10 units of the same product (buy 12 socks for $100)', () => {
