@@ -4,7 +4,8 @@
   "description": "《 AI 軟工百倍研究組織》是一場由《水球軟體學院》發起的技術研究社群，目標是集結全台具備軟體開發能力的工程師，共同推進 AI × BDD 開發流程的研究與實踐。",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js --require-module ts-node/register --require features/discount.steps.ts features/discount.feature"
+    "test": "cucumber-js --require-module ts-node/register --require features/discount.steps.ts features/discount.feature",
+    "test:jest": "jest"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,13 @@
     "@types/cucumber": "^7.0.3",
     "@types/node": "^24.0.14",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "@types/jest": "^29.5.4"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
   }
 }
